@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP4025LSD-13
+D Diodes Inc DMP4025LSD-13 Dual P-channel MOSFET Transistor, 5.8 A, -40 V, 8-Pin SOIC
+K
+F https://www.diodes.com//assets/Datasheets/products_inactive_data/DMP4025LSD.pdf
+$ENDCMP
+#
+#End Doc Library

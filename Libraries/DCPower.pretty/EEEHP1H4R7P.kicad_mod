@@ -1,0 +1,364 @@
+(footprint "EEEHP1H4R7P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "D")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "541e0750-6286-4ef4-876e-2b8c0c2bff7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EEEHP1H4R7P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ae9562fb-0c3d-4dc8-a051-53ca967dbe83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb782441-c0d8-4e73-acd5-3b5fe33940be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab6b037f-1f2d-4206-aa02-27bb68339f76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -3.3)
+		(end -1.5 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39351374-ba87-4743-835a-33e22e089d43")
+	)
+	(fp_line
+		(start -3.3 2.25)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "beac499c-b4ce-41ed-8b3a-4f330cded3a7")
+	)
+	(fp_line
+		(start -2 3.3)
+		(end -3.3 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33c09e74-02bc-4eca-be68-d0416f569eac")
+	)
+	(fp_line
+		(start -1.5 3.3)
+		(end -2 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06a69b33-a2ab-46ea-8774-64b2973e12b9")
+	)
+	(fp_line
+		(start 0 4.7)
+		(end 0 4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d342564d-d339-46b4-a46f-1ed49d1c5576")
+	)
+	(fp_line
+		(start 0 4.8)
+		(end 0 4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86bf3393-2b37-471d-bb04-3941bc26b2d3")
+	)
+	(fp_line
+		(start 0 4.8)
+		(end 0 4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "990644fe-06f0-4376-8ad4-8e994082af09")
+	)
+	(fp_line
+		(start 1.5 -3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e55f3d7e-9bd8-4cf3-ad45-86484617c34d")
+	)
+	(fp_line
+		(start 2 3.3)
+		(end 1.5 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b3d1679-f1c0-46a8-bc2d-8ca22ecea86a")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end 3.3 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a77be23f-28c5-42c2-bd0d-3b307683131d")
+	)
+	(fp_line
+		(start 3.3 2.25)
+		(end 2 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5633a34-f53c-48af-8b14-2d0324021a11")
+	)
+	(fp_arc
+		(start 0 4.7)
+		(mid 0.05 4.75)
+		(end 0 4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "974dd223-deca-4f91-86dc-8c0f97de0b00")
+	)
+	(fp_arc
+		(start 0 4.7)
+		(mid 0.05 4.75)
+		(end 0 4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7474aeb-ca1a-4412-ba08-6adc687ffe2f")
+	)
+	(fp_arc
+		(start 0 4.8)
+		(mid -0.05 4.75)
+		(end 0 4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79b3641a-3b74-42f5-9508-b7267b708d8a")
+	)
+	(fp_line
+		(start -4.3 -5.1)
+		(end 4.3 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76ed86d9-6ad3-453e-823a-017b124f9757")
+	)
+	(fp_line
+		(start -4.3 5.1)
+		(end -4.3 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6923c904-b3b0-4c74-83af-e780672e945a")
+	)
+	(fp_line
+		(start 4.3 -5.1)
+		(end 4.3 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b79c3ad9-2490-4301-9c22-9b92eca03a89")
+	)
+	(fp_line
+		(start 4.3 5.1)
+		(end -4.3 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e3487d7-5c11-43b5-8bcb-ce11452e3e47")
+	)
+	(fp_line
+		(start -3.3 -3.3)
+		(end -3.3 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c22c3db1-0359-4c81-99e5-988da244dd64")
+	)
+	(fp_line
+		(start -3.3 2.25)
+		(end -2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79b33e5f-1838-4e97-ac11-fc0b9893d4df")
+	)
+	(fp_line
+		(start -2 3.3)
+		(end -2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4aad309b-8a1a-402a-a373-7627691c0853")
+	)
+	(fp_line
+		(start -2 3.3)
+		(end 2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b5be1d4-c323-4f07-8e2c-5dae47e6b8cb")
+	)
+	(fp_line
+		(start 2 3.3)
+		(end -2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad40c8ef-0c0c-42ef-b51b-7a03f2e068ec")
+	)
+	(fp_line
+		(start 2 3.3)
+		(end 2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c3fc564-ee0d-4da1-b409-25d955fb45e0")
+	)
+	(fp_line
+		(start 2 3.3)
+		(end 3.3 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "808a31e0-806b-47b0-8b82-5ea2582ec14a")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1618db47-0cf2-4332-a621-5c5863be897a")
+	)
+	(fp_line
+		(start 3.3 2.25)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b857dacf-e8c6-49b9-b11f-1d9d819678ea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bf2c825e-c465-4505-879f-afd14f8f7e71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 2.5)
+		(size 1.6 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4262bd9e-dc7c-45dc-ba5f-f05a380085aa")
+	)
+	(pad "2" smd rect
+		(at 0 -2.5)
+		(size 1.6 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88435ebf-04a4-49ad-a222-1d4012ef5c94")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/const/OneDrive/Documents/REORGANIZARE/Proiecte/Electronica/DCPower/Libraries/EEE-FT1H470AL/3D/EEE-FT1H470AL.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

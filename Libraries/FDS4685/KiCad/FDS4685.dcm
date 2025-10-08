@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDS4685
+D Fast switching speed; RDS(ON) = 0.027 m @ VGS = -10V; -8.2A, -40V; High performance trench technology for extremely low RDS(ON); High power and current handling capability; RDS(ON) = 0.035 m @ VGS = -4.5V
+K
+F https://www.onsemi.com/pub/Collateral/FDS4685-D.PDF
+$ENDCMP
+#
+#End Doc Library

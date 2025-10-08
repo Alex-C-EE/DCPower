@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4417CUF#PBF
+D Power Management Specialized - PMIC 2.5V to 36V Prioritized Triple PowerPath Controller
+K
+F https://www.analog.com/LTC4417/datasheet
+$ENDCMP
+#
+#End Doc Library

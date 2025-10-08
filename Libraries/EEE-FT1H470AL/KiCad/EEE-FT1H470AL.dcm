@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEE-FT1H470AL
+D Cap Aluminum Lytic 47uF 50V 20% (6.3 X 5.8mm) SMD 0.68 Ohm 195mA 2000h 105C Automotive T/R
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/RDE0000C1269.pdf
+$ENDCMP
+#
+#End Doc Library

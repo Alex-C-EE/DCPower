@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AEA0810101M050R
+D Aluminum Electrolytic Capacitors - SMD 50V 100uF 0810 20%
+K
+F https://datasheets.kyocera-avx.com/kyocera-avx-aea-series.pdf
+$ENDCMP
+#
+#End Doc Library
