@@ -13571,6 +13571,17 @@
 		)
 		(uuid "aa60e507-4aee-4c4e-a204-bd889b951fec")
 	)
+	(text "V_MAIN - 2nd-Order RLC Output Filter\n\nDesign Parameters (Nominal):\n  - Damping Factor (ζ): ~2.17 (Overdamped)\n  - Natural Frequency (fn): ~17.3 kHz\n\nDesign Notes:\n- The filter is intentionally overdamped to guarantee\n  stability and prevent any voltage overshoot during\n  power-on or transient load events.\n- Damping is dominated by the ESR of C14, C7 and the\n  series resistor R45."
+		(exclude_from_sim no)
+		(at 350.012 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b532063d-d81e-4bcf-8fc5-7be61dc51f67")
+	)
 	(text "20V"
 		(exclude_from_sim no)
 		(at 152.4 143.764 0)
@@ -13656,6 +13667,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a2d20ba-bf01-49e4-960f-c0ecece89fc3")
+	)
+	(junction
+		(at 363.22 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eef5495-9a21-4ca7-870b-bd696f4ec3c4")
 	)
 	(junction
 		(at 323.85 119.38)
@@ -13896,12 +13913,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be5d0d9-5afe-48c8-825f-9c1e2ec882c5")
-	)
-	(junction
-		(at 341.63 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c19941d-4988-40fa-9277-0c16ac974cce")
 	)
 	(junction
 		(at 121.92 223.52)
@@ -14294,6 +14305,12 @@
 		(uuid "e59850ea-e4b4-4739-825c-d98944d7f81f")
 	)
 	(junction
+		(at 341.63 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61a2508-0069-4855-8e06-2b1d6d012d0a")
+	)
+	(junction
 		(at 190.5 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14427,7 +14444,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 199.39) (xy 53.34 199.39)
+			(xy 53.34 199.39) (xy 396.24 199.39)
 		)
 		(stroke
 			(width 0)
@@ -14494,6 +14511,16 @@
 			(type default)
 		)
 		(uuid "03a260d0-6ff1-448e-8536-489b4f61ef8a")
+	)
+	(wire
+		(pts
+			(xy 363.22 92.71) (xy 363.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044d60aa-2877-4f2a-aa0d-c04ba4a7bc5c")
 	)
 	(wire
 		(pts
@@ -14797,6 +14824,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 92.71) (xy 363.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b242d0-2aea-4b83-9407-fe635f53e72b")
+	)
+	(wire
+		(pts
 			(xy 257.81 166.37) (xy 257.81 168.91)
 		)
 		(stroke
@@ -15057,7 +15094,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 80.01) (xy 363.22 125.73)
+			(xy 363.22 80.01) (xy 363.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -15117,7 +15154,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 80.01) (xy 396.24 201.93)
+			(xy 396.24 80.01) (xy 396.24 199.39)
 		)
 		(stroke
 			(width 0)
@@ -15967,6 +16004,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 92.71) (xy 356.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847efd71-9d50-40f5-a008-d1c934f04d8b")
+	)
+	(wire
+		(pts
 			(xy 236.22 110.49) (xy 229.87 110.49)
 		)
 		(stroke
@@ -16244,16 +16291,6 @@
 			(type default)
 		)
 		(uuid "9f146315-b9f2-4f9f-9af6-d11bacbef917")
-	)
-	(wire
-		(pts
-			(xy 341.63 80.01) (xy 363.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f415e0b-9c03-43ad-9b1a-947ddea9cf63")
 	)
 	(wire
 		(pts
@@ -16617,6 +16654,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 92.71) (xy 356.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5aa4c29-da96-4016-ac1b-765a31cfe255")
+	)
+	(wire
+		(pts
 			(xy 323.85 115.57) (xy 323.85 119.38)
 		)
 		(stroke
@@ -16807,16 +16854,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 201.93) (xy 394.97 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e31291-46ff-4374-841c-7e1401f0f99c")
-	)
-	(wire
-		(pts
 			(xy 92.71 22.86) (xy 274.32 22.86)
 		)
 		(stroke
@@ -16824,16 +16861,6 @@
 			(type default)
 		)
 		(uuid "d81c41ff-3a45-4747-8161-b802c28faa9a")
-	)
-	(wire
-		(pts
-			(xy 394.97 201.93) (xy 396.24 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d833603a-9094-4fd9-a961-6b1bb66cabcb")
 	)
 	(wire
 		(pts
@@ -17094,6 +17121,16 @@
 			(type default)
 		)
 		(uuid "f2f8a827-d2ed-4508-ab8b-c1b743f7ee10")
+	)
+	(wire
+		(pts
+			(xy 356.87 80.01) (xy 341.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3562f39-2b06-480a-ac6d-498fe8abdabf")
 	)
 	(wire
 		(pts
@@ -30806,6 +30843,76 @@
 			(project "DCPower"
 				(path "/eca3382c-8ef0-49cd-b01d-b9c14b82da03"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 363.22 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2b5a8a-3a1a-48cf-ba98-4118825f3abe")
+		(property "Reference" "R45"
+			(at 365.76 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 365.76 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.442 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 363.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60f943da-9381-486a-9d6a-3d7d3ded55f5")
+		)
+		(pin "2"
+			(uuid "6a812a52-7db6-481b-85ec-708898c83234")
+		)
+		(instances
+			(project ""
+				(path "/eca3382c-8ef0-49cd-b01d-b9c14b82da03"
+					(reference "R45")
 					(unit 1)
 				)
 			)
