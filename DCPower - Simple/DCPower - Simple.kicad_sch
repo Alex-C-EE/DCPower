@@ -3375,7 +3375,7 @@
 		)
 		(uuid "ae4ad3a4-3a7f-45cf-9f7a-06124dc435d9")
 	)
-	(text "0x75H"
+	(text "0x75h"
 		(exclude_from_sim no)
 		(at 260.096 61.214 0)
 		(effects
